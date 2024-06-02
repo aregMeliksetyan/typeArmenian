@@ -1,2 +1,5 @@
 # typeArmenian
-Javascript app for Armenian fast typing
+Armenian fast typing (javascrip app for desktop)
+
+Usage:
+  Download index.html and game.js to the same location and open index.html.
