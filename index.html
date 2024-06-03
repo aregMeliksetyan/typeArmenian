@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="hy">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Մուտքագրելու Խաղ</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: black; /* Set background color to black */
+            color: white; /* Set default text color to white */
+        }
+        #game {
+            position: left;
+            width: 300px;
+            height: 500px;
+            //border: 2px solid #333;
+            background-color: #000; /* Match the background color */
+        }
+        .letter {
+            position: absolute;
+            font-size: 48px;
+        }
+        .vowel {
+            color: lightgreen; /* Set vowel color to light green */
+        }
+        .consonant {
+            color: white; /* Set consonant color to white */
+        }
+        .message {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            padding: 20px;
+            background-color: rgba(255, 0, 0, 0.8);
+            color: white;
+            display: none;
+        }
+        #speedDisplay {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            font-size: 20px;
+            color: yellow;
+        }
+    </style>
+</head>
+<body>
+    <div id="game"></div>
+    <div class="message" id="message"></div>
+    <div id="speedDisplay"></div>
+    <script src="game.js"></script>
+</body>
+</html>
